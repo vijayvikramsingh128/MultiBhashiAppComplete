@@ -8,19 +8,19 @@
         android:id="@+id/text_Pronountiation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="26dp"
-        android:text="pronunciation"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_centerVertical="true"
+        android:text="pronunciation"
+        android:textSize="26dp" />
 
     <TextView
-        android:id="@+id/learnFragPronountiation"
+        android:id="@+id/learn_concept"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="26dp"
-        android:text="conceptName"
         android:layout_centerHorizontal="false"
-        android:layout_centerVertical="false" />
+        android:layout_centerVertical="false"
+        android:text="conceptName"
+        android:textSize="26dp" />
 
     <Button
         android:id="@+id/button_Play"
@@ -28,5 +28,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_Pronountiation"
         android:layout_centerHorizontal="true"
-        android:text="Play Music From URL" />
+        android:text="Play Sound" />
 </RelativeLayout>
